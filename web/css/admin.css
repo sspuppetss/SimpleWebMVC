@@ -1,0 +1,223 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 22, 2018, 8:57:27 PM
+    Author     : Surya
+*/
+
+html {
+font-family: sans-serif;
+line-height: 1.15;
+}
+
+body {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #ffffff;
+}
+
+aside, footer, header, nav, section {
+  display: block;
+}
+
+a {
+    color: #212529;
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.2;
+  color: inherit;
+  border: none;
+  width: 25%;
+}
+h1{
+  border-bottom: 1px solid rgba(0,0,0,0.38);
+}
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+.table {
+  width: 100%;
+  max-width: 100%;
+  margin-bottom: 1rem;
+  background-color: transparent;
+  border: 1px solid #dee2e6;
+}
+
+.table th {
+  text-align: center;
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  background-color: rgba(164,167,170,0.31);
+  border-right: 1px solid #dee2e6;
+}
+.table tr:hover {
+    background-color: rgba(206,210,213,0.18);
+}
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+  border-right: 1px solid #dee2e6;
+}
+
+.nav {
+  color: rgba(255,255,255,0.92);
+  height: 3.4rem;
+  top:0;
+  width: 100%;
+  padding-left: 0;
+  margin-bottom: 0;
+  position: fixed;
+  list-style: none;
+  padding-bottom: 0;
+  background-color: rgba(74,102,226,0.9);
+}
+
+.nav-list {
+  margin: 0;
+  padding-right: 0;
+  padding-left: 0;
+  position: relative;
+  background-color: rgba(74,102,226,0.8);
+    
+}
+.nav-list li{
+    padding: 15px;
+    display: inline-block;  
+    float: right;
+    cursor: context-menu;
+}
+.nav-list li:hover{
+    background-color: rgba(33,39,41,0.11);
+}
+.nav-list a {
+    color: rgba(255,255,255,0.92);
+    padding: 15px;
+}
+.nav-list li:first-child{
+    cursor: pointer;
+    text-align: center;
+    float : left;
+    width: 16.6667%;
+    box-sizing: border-box;
+    background-color: rgba(69,104,230,0.76);
+}
+
+.nav-list:hover, .nav-list:focus {
+  text-decoration: none;
+}
+
+.sidebar-list {
+    width: 16.6667%;
+    padding: 15px 0px;
+    background-color: rgba(63,101,236,0.82);
+    line-height: 1.2;
+    margin: 0; 
+    list-style: none;
+    display: relative;
+    position: fixed;
+    top: 3.39rem;
+    bottom: 0;
+    z-index: 2;
+}
+.sidebar-list li {
+    border-bottom: 1px solid rgba(40,43,43,0.45);
+    color: rgba(255,255,255,0.92);
+    margin: 0;
+    padding: 10px 25px;
+    font-size: 0.9rem;
+}
+.sidebar-list li:hover {
+    background-color: rgba(33,39,41,0.11);
+    }
+.side-head {
+    color: rgba(255,255,255,0.92);
+    padding: 15px 10px;
+    margin: 0;
+    border-bottom: 1px solid rgba(40,43,43,0.45);
+}
+.content{
+    width:75%; 
+    margin: 5rem 18.6667%;
+}
+.content-main {
+    margin: 30px;
+    width: 100%;
+}
+.act {
+    text-align: center; 
+}
+.act a:hover {
+    color: rgba(27,130,179,0.89);
+}
+.form{
+    padding: 15px;
+}
+.form td:nth-child(odd){
+    padding: 15px ;
+}
+.form-control {
+  display: inline-block;
+  max-width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-shadow: inset 0 0 0 transparent;
+}
+.btn{
+    float: right;
+    border: 1px solid rgb(48,103,183);
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgb(42,96,190);
+    max-width: 50%;
+    text-align: center;
+}
+.btn:hover{
+    background-color: rgba(42,96,190,0.81);
+    cursor: pointer;
+}
+.add{
+    margin: 15px 0;
+    float: left;
+}
+.add:hover{
+    background-color: rgba(42,96,190,0.81);
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 5px 15px;
+    background-color: rgb(74,91,151);
+    width: 100%;
+    text-align: right;
+    z-index: 1;
+    color: white;
+    font-weight: bold;
+}

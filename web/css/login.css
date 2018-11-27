@@ -1,0 +1,82 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 21, 2018, 4:54:58 PM
+    Author     : Surya
+*/
+
+body{
+    margin: 0;
+    padding: 15px;
+    max-width: 100%;
+}
+.login-box {
+    margin: 100px;
+}
+.login-banner p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0 15px 15px;
+}
+.login-body {
+    display: block;
+    margin: 0 33.333%;
+    padding: 0 15px 15px;
+    border: 1px solid rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.2);
+}
+
+.login-header {
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+    padding: 0 15px 5px;
+    font-size: 21px;
+    margin: 15px;
+    max-width: 91.667%;
+}
+.form {
+    display: block;
+    padding: 0 15px;
+}
+.form p {
+    min-width: 25%;
+    padding: 0 15px;
+    display: inline-block;
+}
+
+.form-control {
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 3px;
+    padding: 10px;  
+    max-width: 91.667%;
+}
+.btn {
+    display: inline-block;
+    border: 1px solid rgb(48,103,183);
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #fff;
+    background-color: rgb(42,96,190);
+    margin: 15px 41.6667% 10px;
+    max-width: 33.333%;
+}
+.btn:hover{
+    background-color: rgba(42,96,190,0.81);
+    cursor: pointer;
+}
+.notif {
+    margin: 0 33%;
+    padding: 15px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bold;
+    color: rgb(255,255,255);
+    background-color: rgba(200,37,37,0.5);
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: 3px;
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.12);
+    max-width: 50%;
+}
